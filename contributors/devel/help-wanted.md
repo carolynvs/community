@@ -1,72 +1,86 @@
+We use two labels `help wanted` and `good first issue` to identify issues that have been
+specially groomed for new and casual contributors. The `good first issue` label is a 
+subset of `help wanted`, so all `good first issue` items also have `help wanted`.
+
 # Help Wanted
 
 Items marked with the `help wanted` label need to ensure that they are:
 
-- **Low Barrier to Entry**<br/>
+- **Low Barrier to Entry**
   It should be tractable for casual contributors. Documentation on how that type of change should be made should already exist.
 
-- **Clear Task**<br/>
+- **Clear Task**
   The task is agreed upon and does not require further discussions
   in the community. Call out if that area of code is untested and requires new fixtures.
 
   API / CLI behavior is decided and included in the OP issue, for example: _"The new command syntax is `svcat unbind NAME [--orphan] [--timeout 5m]`"_, with expected validations called out.
 
-- **Goldilocks priority**<br/>
+- **Goldilocks priority**
   Not too high that a core contributor should do it, but not too low that it
   isn't useful enough for a core contributor to spend time to review it, answer questions, help get it into a release, etc.
 
-- **Up-To-Date**<br/>
+- **Up-To-Date**
   Often these issues become obsolete and have already been done, are no longer desired,
   no longer make sense, have changed priority or difficulty , etc.
 
 Related commands:
 
-- `/help` : adds the `help wanted` label to an issue
-- `/remove-help` : removes the `help wanted` label from an issue
+- `/help` : Adds the `help wanted` label to an issue.
+- `/remove-help` : Removes the `help wanted` label from an issue. If the `good first issue` label is present, it is removed as well.
 
 # Good First Issue
 
 Items marked with the `good first issue` label are intended for _new contributors_.
-These make it clear to new contributors that they are welcome, valued, and provide
-a clear starting point for joining the project. After a contributor has successfully
-completed 1-2 `good first issue`'s, they should be ready to move on to `help wanted` items, saving remaining `good first issue`'s for other new contributors.
+It indicates that members will keep an eye out for pull requests from new contributors
+and help shepherd it through our processes.
 
-Please keep an eye out for pull requests from new contributors and help
-move it through our processes. New contributors shouldn't be left to decipher prow
-commands, build flakes, find an approver, or ping for reviews.
+**New contributors should not be left to find an approver, ping for reviews, decipher 
+prow commands, or identify that their build failed due to a flake.**
+This makes new contributors feel welcome, valued, and assures them that they will have an extra
+level of help with their first contribution.
+
+After a contributor has successfully completed 1-2 `good first issue`'s, they 
+should be ready to move on to `help wanted` items, saving remaining `good first issue`'s 
+for other new contributors.
 
 These items need to ensure that they follow the guidelines for `help wanted` labels (above)
 in addition to meeting the following criteria:
 
-- **No Barrier to Entry**<br/>
+- **No Barrier to Entry**
   The task is something that a new contributor can tackle without
   advanced setup, or domain knowledge.
 
-- **Solution Explained**<br/>
+- **Solution Explained**
   The recommended solution is clearly described in the issue.
 
-- **Provides Context**<br/>
+- **Provides Context**
   If background knowledge is required, this should be explicitly mentioned
   and a list of suggested readings included.
 
-- **Gives Examples**<br/>
+- **Gives Examples**
   Link to examples of similar implementations so new contributors have a reference guide
   for their changes.
 
-- **Identifies Relevant Code**<br/>
-  The relevant code and tests should be linked in the issue.
+- **Identifies Relevant Code**
+  The relevant code and tests to be changed should be linked in the issue.
 
-- **Ready to Test**<br/>
+- **Ready to Test**
   There should be existing tests that can be modified, or existing test
   cases fit to be copied. If the area of code doesn't have tests, before labeling the issue,
   add a test fixture. This prep often makes a great `help wanted` task!
 
 Related commands:
 
-- `/good-first-issue` : adds the `good first issue` label to an issue
-- `/remove-good-first-issue` : removes the `good first issue` label from an issue
+- `/good-first-issue` : Adds the `good first issue` label to an issue. Also adds the `help wanted` label, if not already present.
+- `/remove-good-first-issue` : Removes the `good first issue` label from an issue.
 
 ## Suggestions
+
+We encourage our more experienced members to help new contributors, so that the Kubernetes
+community can continue to grow and maintain the kind, inclusive community that we all enjoy today.
+
+The following suggestions go a long way toward preventing "drive-by" PRs, and 
+ensure that our investment in new contributors is rewarded by them coming back and becoming regulars.
 
 Provide extra assistance during reviews on `good first issue` pull requests:
 - Answer questions and identify useful docs.
@@ -80,7 +94,8 @@ If you make someone feel like a part of our community, that it's safe to ask que
 that people will let them know the rules/norms, that their contributions are helpful and appreciated... they will stick around! 🌈
 - Encourage new contributors to seek help on the appropriate slack channels, introduce them, and include them in your conversations.
 - Invite them to the SIG meetings.
-- Give credit to new contributors so that others get to know them, _"Hey, would someone help give a second LGTM on @newperon's first PR on chocolate bunnies?"_. Mention them in the SIG channel/meeting, thank them on twitter or #shoutout.
+- Give credit to new contributors so that others get to know them, _"Hey, would someone help give a second LGTM on 
+  @newperon's first PR on chocolate bunnies?"_. Mention them in the SIG channel/meeting, thank them on twitter or #shoutouts.
 - Use all the emoji in your approve or lgtm comment. 💖 🚀
 - Let them know that their `good first issue` is getting extra attention to make the
   first one easier and help them find a follow-up issue.
