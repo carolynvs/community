@@ -46,6 +46,11 @@ in addition to meeting the following criteria:
   cases fit to be copied. If the area of code doesn't have tests, before labeling the issue,
   add a test fixture. This prep often makes a great `help wanted` task!
 
+Related commands:
+
+- `/good-first-issue` : adds the `good first issue` label to an issue
+- `/remove-good-first-issue` : removes the `good first issue` label from an issue
+
 ## Suggestions
 
 Provide extra assistance during reviews on `good first issue` pull requests:
