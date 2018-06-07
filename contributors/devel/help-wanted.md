@@ -1,13 +1,14 @@
 We use two labels `help wanted` and `good first issue` to identify issues that have been
-specially groomed for new and casual contributors. The `good first issue` label is a 
-subset of `help wanted`, so all `good first issue` items also have `help wanted`.
+specially groomed for new contributors. The `good first issue` label is a
+subset of `help wanted` label, indicating that members have committed to
+providing extra assistance for new contributors. All `good first issue` items also have the `help wanted` label.
 
 # Help Wanted
 
 Items marked with the `help wanted` label need to ensure that they are:
 
 - **Low Barrier to Entry**
-  It should be tractable for casual contributors. Documentation on how that type of change should be made should already exist.
+  It should be tractable for new contributors. Documentation on how that type of change should be made should already exist.
 
 - **Clear Task**
   The task is agreed upon and does not require further discussions
@@ -30,17 +31,17 @@ Related commands:
 
 # Good First Issue
 
-Items marked with the `good first issue` label are intended for _new contributors_.
-It indicates that members will keep an eye out for pull requests from new contributors
-and help shepherd it through our processes.
+Items marked with the `good first issue` label are intended for _first-time contributors_.
+It indicates that members will keep an eye out for these pull requests
+and shepherd it through our processes.
 
-**New contributors should not be left to find an approver, ping for reviews, decipher 
+**New contributors should not be left to find an approver, ping for reviews, decipher
 prow commands, or identify that their build failed due to a flake.**
 This makes new contributors feel welcome, valued, and assures them that they will have an extra
 level of help with their first contribution.
 
-After a contributor has successfully completed 1-2 `good first issue`'s, they 
-should be ready to move on to `help wanted` items, saving remaining `good first issue`'s 
+After a contributor has successfully completed 1-2 `good first issue`'s, they
+should be ready to move on to `help wanted` items, saving remaining `good first issue`'s
 for other new contributors.
 
 These items need to ensure that they follow the guidelines for `help wanted` labels (above)
@@ -79,7 +80,7 @@ Related commands:
 We encourage our more experienced members to help new contributors, so that the Kubernetes
 community can continue to grow and maintain the kind, inclusive community that we all enjoy today.
 
-The following suggestions go a long way toward preventing "drive-by" PRs, and 
+The following suggestions go a long way toward preventing "drive-by" PRs, and
 ensure that our investment in new contributors is rewarded by them coming back and becoming regulars.
 
 Provide extra assistance during reviews on `good first issue` pull requests:
@@ -94,8 +95,8 @@ If you make someone feel like a part of our community, that it's safe to ask que
 that people will let them know the rules/norms, that their contributions are helpful and appreciated... they will stick around! 🌈
 - Encourage new contributors to seek help on the appropriate slack channels, introduce them, and include them in your conversations.
 - Invite them to the SIG meetings.
-- Give credit to new contributors so that others get to know them, _"Hey, would someone help give a second LGTM on 
-  @newperon's first PR on chocolate bunnies?"_. Mention them in the SIG channel/meeting, thank them on twitter or #shoutouts.
+- Give credit to new contributors so that others get to know them, _"Hey, would someone help give a second LGTM on
+  @newperson's first PR on chocolate bunnies?"_. Mention them in the SIG channel/meeting, thank them on twitter or #shoutouts.
 - Use all the emoji in your approve or lgtm comment. 💖 🚀
 - Let them know that their `good first issue` is getting extra attention to make the
   first one easier and help them find a follow-up issue.
