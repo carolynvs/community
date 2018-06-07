@@ -2,10 +2,22 @@
 
 Items marked with the `help wanted` label need to ensure that they are:
 
-- Sufficiently actionable: clear description of what should be done
-- Tractable for new/casual contributors: there is documentation how that type of change should be made
-- Goldilocks priority: Not too high that a core contributor should do it, but not too low that it isn't useful enough for a core contributor to spend time to review it, answer questions, help get it into a release, etc.
-- Up to date: Often these issues become obsolete and have already been done, are no longer desirable, no longer make sense, change in priority, change in difficulty, etc.
+- **Low Barrier to Entry**<br/>
+  It should be tractable for casual contributors. Documentation on how that type of change should be made should already exist.
+
+- **Clear Task**<br/>
+  The task is agreed upon and does not require further discussions
+  in the community. Call out if that area of code is untested and requires new fixtures.
+
+  API / CLI behavior is decided and included in the OP issue, for example: _"The new command syntax is `svcat unbind NAME [--orphan] [--timeout 5m]`"_, with expected validations called out.
+
+- **Goldilocks priority**<br/>
+  Not too high that a core contributor should do it, but not too low that it
+  isn't useful enough for a core contributor to spend time to review it, answer questions, help get it into a release, etc.
+
+- **Up-To-Date**<br/>
+  Often these issues become obsolete and have already been done, are no longer desired,
+  no longer make sense, have changed priority or difficulty , etc.
 
 Related commands:
 
@@ -26,21 +38,24 @@ commands, build flakes, find an approver, or ping for reviews.
 These items need to ensure that they follow the guidelines for `help wanted` labels (above)
 in addition to meeting the following criteria:
 
-- **Low Barrier to Entry**<br/>
+- **No Barrier to Entry**<br/>
   The task is something that a new contributor can tackle without
   advanced setup, or domain knowledge.
-- **Clear Task**<br/>
-  The task is agreed upon and does not require further discussions
-  in the community. The recommended solution is clearly described in the issue and
-  is limited in scope so that no unexpected changes arise during review.
+
+- **Solution Explained**<br/>
+  The recommended solution is clearly described in the issue.
+
 - **Provides Context**<br/>
   If background knowledge is required, this should be explicitly mentioned
   and a list of suggested readings included.
+
 - **Gives Examples**<br/>
   Link to examples of similar implementations so new contributors have a reference guide
   for their changes.
+
 - **Identifies Relevant Code**<br/>
   The relevant code and tests should be linked in the issue.
+
 - **Ready to Test**<br/>
   There should be existing tests that can be modified, or existing test
   cases fit to be copied. If the area of code doesn't have tests, before labeling the issue,
